@@ -14,6 +14,10 @@ A simple frontend clone of the Udemy website built using **HTML and CSS**.
 * Font Awesome icons
 * Google Fonts
 
+## Live Website
+
+https://inthusha20241647-commits.github.io/Udemy-Clone-Project/
+
 ## Technologies Used
 
 * HTML5
