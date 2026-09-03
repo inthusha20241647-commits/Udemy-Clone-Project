@@ -121,6 +121,7 @@ body {
 }
 .recommended {
   padding: 10px;
+  margin-top: 20px;
 }
 .recommended__container {
   display: flex;
@@ -129,14 +130,17 @@ body {
   flex-wrap: wrap;
 }
 .course-card {
-  width: 200px;
+  flex-grow:1;
+  flex-basis:20%;
+  margin: 10px;
+  
 }
 .course-card img {
   width: 100%;
-  height: 50%;
+  height: 50%;  
 }
 .topics {
-  padding: 10px;
+  padding: 10px;  
 }
 .topics__container {
   display: flex;
@@ -182,4 +186,25 @@ body {
   padding: 30px;
   background-color: black;
   color: white;
+}
+@media screen and (max-width:800px){
+  body{
+    font-size:10px;
+  }
+  .navbar__4{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:600px){
+  .course-card{
+    flex-basis: 40%;
+  }
+  .categories {
+    display: none;
+  }
+ .navbar__s2,.navbar__s3{
+    display: none;
+  }
+  
 }
